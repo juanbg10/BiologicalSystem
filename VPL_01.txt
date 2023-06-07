@@ -1,0 +1,21 @@
+Faça um programa que receba uma lista de genes e uma única função de regulação simples, que não contém o operador or (' | ') e imprima uma lista dos estados que podem ativar o suposto gene. (Num próximo exercício será incluído o ' | ' e será uma função para cada um dos genes. Por enquanto, seria como se fosse só um dos pedacinhos da figura abaixo)
+
+pedaço
+
+Exemplo de execução:
+
+Nomes dos genes (separados por vírgula): A,B,C
+
+Função: !A&B
+
+['010', '011']
+
+Dicas:
+não esqueça de usar o método strip() nos inputs para tirar o pula-linha ('\n')
+separe o código em diversas funções
+melhor usar dicionários
+faça uma função que retorne uma lista com todos os estados possíveis. (e/ou uma lista com dicionários para cada estado)
+após ler a função, utilize o método split() com  o caractere '&' como delimitador
+verifique se cada elemento inicia com o caractere '!' ou não para atribuir os valores 0 ou 1 e crie um dicionário para a função
+comparando os dicionários de todos os estados com o gerado pela função, utilize um indicador de passagem para invalidar os estados que inativam
+Se você tiver uma ideia melhor, implemente-a, porque esta dica está uma macarronada.
