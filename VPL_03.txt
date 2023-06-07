@@ -1,0 +1,29 @@
+Faça um programa que receba uma lista de genes e uma função de regulação para cada gene com operadores not, and e or ('!', '&', ' | ') como no exercício VPL 02, e imprima a TABELA de TRANSIÇÃO de ESTADOS. Utilize o que foi feito nos exercícios anteriores. (Se quiser, pode fazer tudo diferente também)
+
+Exemplo de execução:
+
+Nomes dos genes (separados por vírgula): A,B,C
+
+Função para A: !A&C | B&C | !C
+
+Função para B: !A&!B | C
+
+Função para C: A&B
+
+Tabela de Transição de Estados:
+
+000 110
+
+001 110
+
+010 100
+
+011 110
+
+100 100
+
+101 010
+
+110 101
+
+111 111
