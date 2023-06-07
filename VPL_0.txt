@@ -1,0 +1,11 @@
+Faça um programa que leia um número inteiro n (que representa o número de genes envolvidos num sistema a ser analisado) e imprima as combinações possíveis do estado inicial desses genes.
+
+Exemplo de execução:
+
+Entre com o número de genes: 2
+00
+01
+10
+11
+
+Dica: utilize o método product do módulo itertools (https://docs.python.org/3/library/itertools.html) e transforme numa lista. Em seguida, percorra a lista e transforme cada tupla em string para imprimir utilizando o método join de string (https://docs.python.org/3/library/stdtypes.html). Observe que para isso, os valores 0 e 1 que são int deverão ser transformados em string antes do join.
